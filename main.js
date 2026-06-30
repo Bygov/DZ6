@@ -122,3 +122,7 @@ const minor = celebrities.some((person) => {
 });
 
 console.log(minor);
+
+const olderThan20 = celebrities.filter((person) => person.age > 20);
+
+console.log(olderThan20);
